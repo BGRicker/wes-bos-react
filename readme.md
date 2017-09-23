@@ -5,6 +5,11 @@ I'm learning React, starting with Wes Bos' wonderful React tutorial. I'm going t
 #### this.props
 ###### this - refers to the component being referenced
 ###### props - object passed 
+    - available anywhere in the component's return block
     - $r in console shows current component
     - $r.props / $r.props.tagline
-available anywhere in the component's return block
+
+you don't need a full react component if just rendering html, just need a stateless functional component
+    - change react component class to a constant, passing (props):
+        - const Header = props => {
+
